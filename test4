@@ -1,0 +1,10 @@
+#!/bin/bash
+#if else
+testUser=lisandro
+if grep $testUser /etc/passwd
+then
+  echo The files for user $tesUser are:
+  ls -a /home/$testUser/.b*
+else 
+  echo "the user name $testUser does not exist on this system"
+fi

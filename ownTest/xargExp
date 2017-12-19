@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat test1 | xargs ls -l
+cat test1 | xargs less
